@@ -1,12 +1,12 @@
 ﻿# **Single_Cycle_Processor_Design**
-This is a 16-bit processor, which supports 16 ISA instructions. It has the conventional procedure of running an instruction. i.e instruction fectch --> instruction decode --> execute --> accessing memory --> write back. And it is single cycle. i.e. it executes one instruction per clock cycle.
+This is a 16-bit processor, which supports 16 ISA instructions. It has the conventional procedure of running an instruction. i.e instruction fectch --> instruction decode --> execute --> accessing memory --> write back. And it is a single-cycle processor. i.e. it executes one instruction per clock cycle.
 
 ## WISC-F23 ISA ##
-Customized by the school's department for teaching purpose, this ISA is what the processor is built on. THis ISA include 16 16-bit-long instructions as following:
+Customized by the school's department for teaching purposes, this ISA is what the processor is built on. This ISA includes sixteen 16-bit-long instructions as follows:
 
-Compute Instructions: ADD, PADDSB, SUB, XOR, RED, SLL, SRA, ROR.
-Memory Instructions:  LW, SW, LLB, LHB.
-Control Instructions: B, BR, PCS, HLT.
+1. Compute Type Instructions: ADD, PADDSB, SUB, XOR, RED, SLL, SRA, ROR.
+2. Memory Type Instructions:  LW, SW, LLB, LHB.
+3. Control Type Instructions: B, BR, PCS, HLT.
 
 ## Main Internal Components ##
 PC Register, Instruction Memory, Register File, Control Unit, ALU, Data Memory, Flag Register (used for branch).
