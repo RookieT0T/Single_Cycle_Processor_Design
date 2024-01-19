@@ -2,7 +2,7 @@
 This is a 16-bit processor, which supports 16 ISA instructions. It has the conventional procedure of running an instruction. i.e instruction fectch --> instruction decode --> execute --> accessing memory --> write back. And it is a single-cycle processor. i.e. it executes one instruction per clock cycle.
 
 ## WISC ISA ##
-Customized by the school's CS/ECE department for teaching purposes, this ISA is what the processor is built on. This ISA includes sixteen 16-bit-long instructions as follows:
+Based on MIPS ISA and customized by the school's CS/ECE department for teaching purposes, this ISA is what the processor is built on. This ISA includes sixteen 16-bit-long instructions as follows:
 
 1. Compute Type Instructions: ADD, PADDSB, SUB, XOR, RED, SLL, SRA, ROR.
 2. Memory Type Instructions:  LW, SW, LLB, LHB.
